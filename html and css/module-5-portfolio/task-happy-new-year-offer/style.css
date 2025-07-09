@@ -1,0 +1,217 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Inter", sans-serif;
+}
+
+
+body{
+    padding: 50px 140px;
+    
+}
+
+
+/* header section style start here */
+            /* section-1 */
+                   .greeting{
+                            position: relative;
+                            width: 1200px;
+                            height: 500px;
+                        }
+                        .greeting-overlay{
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 16px;
+                            background: linear-gradient(
+                                to bottom,
+                                rgba(0, 0, 0, 0.9),
+                                rgba(0, 0, 0, 0.1)
+
+                            
+                            );
+                            z-index: 1;
+                        }
+                        .greeting img{
+                            width: 100%;
+                            height: 100%;
+                            
+                        }
+                        .greeting-text{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            color: white;
+                            text-align: center;
+                            z-index: 2;
+                        }
+                        .greeting-text{
+                            margin: 0 auto ;
+                        }
+                        .greeting-text p{
+                            font-size: 32px;
+                            font-weight: 400;
+                        }
+                        .greeting-text{
+                            font-size: 72px;
+                            font-weight: 800;
+                        }
+            /* section-1 */
+
+
+            /* section-2 */
+
+                        .section-2{
+                            width: 800px;
+                            height: 800px;
+                            
+                            margin: 0 auto;
+                            margin-top: 100px;
+                            text-align: center;
+                        }
+
+                        .discount-text h3{
+                            font-size: 88px;
+                            font-weight: 700;
+                            color: #ff0000;
+                        }
+                        .discount-text p{
+                            font-size: 24px;
+                            font-weight: 500;
+                            color: #ff0000;
+                            margin-top: 28px;
+                        }
+                        .discount-text h4{
+                            font-size: 48px;
+                            font-weight: bold;
+                            color: #070211;
+                            margin-top: 10px;
+                        }
+                        .discount-img{
+                            margin-top: 20px;
+                        }
+                        
+                        .discount-img img{
+                            width: 800px;
+                            height:500px;
+                        }
+            /* section-2 */
+
+
+            /* section-3 */
+
+                        .party{
+                            width: 1200px;
+                            height: 500px;
+                            margin-top: 50px;
+                            border-radius: 16px;
+                            position: relative;
+                            
+                        }
+                        .party .party-img{
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        .party-overlay{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 16px;
+                            background: linear-gradient(
+                                to right,
+                                rgba(0,0,0,0.9),
+                                rgba(0,0,0,0.1)
+                            );
+                            z-index: 1;
+                        }
+
+
+                        .party-text{
+                            display: flex;
+                            align-items: center;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            
+                            z-index: 2;
+                        }
+                        
+                        .party-desc{
+                            width: 70%;
+                            padding: 126px;
+                        }
+                        .party-desc h3{
+                            font-size: 64px;
+                            font-weight: 800;
+                            color: #ffffff;
+                        }
+                        .party-desc p{
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: rgba(255, 255, 255, 0.8);
+                            margin: 20px  0 ;
+                        }
+                        .party-text img{
+                            width: 250px;
+                            height: 400px;
+                            
+                        }
+            /* section-3 */
+
+
+            /* section-4 */
+                        .section-4{
+                            width: 1200px;
+                            height: 500px;
+                            background: linear-gradient(
+                                to bottom,
+                                rgba(255, 0, 0, 0.1),
+                                rgba(255,0,0,0)
+                            );
+                            margin-top: 80px;
+                            padding-top: 100px;
+                            border-radius: 16px;
+                            text-align: center;
+                        }
+                        .section-4 h5{
+                            font-size: 32px;
+                            font-weight: 600;
+                            margin-top: 10px;
+                            
+                        }
+                        .section-4 span{
+                            color: #ff0000;
+                        }
+                        .section-4 button{
+                            padding: 16px 32px;
+                            background-color: #ff0000;
+                            border-radius: 10px;
+                            margin-top: 50px;
+                            color: white;
+                            border: none;
+                        }
+            /* section-4 */
+/* header section style start end */
+
+
+/* main section style start here */
+
+          /* section-5 */
+                       .best-offer{
+                        margin-top: 80px;
+                        display: flex;
+                        align-items: center;
+                       }
+          /* section-5 */
+/* main section style start end */
