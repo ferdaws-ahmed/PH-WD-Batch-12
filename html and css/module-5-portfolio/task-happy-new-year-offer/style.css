@@ -213,5 +213,18 @@ body{
                         display: flex;
                         align-items: center;
                        }
+
+                       .best-offer-desc{
+                        width: 27%;
+                       }
+                       .best-offer-img{
+                        /* width: 33.33%; */
+                        border: 14px solid red;
+                        border-radius: 50%;
+                        padding: 20px;
+                       }
+                       .best-offer-year{
+                        width: 25%;
+                       }
           /* section-5 */
 /* main section style start end */
