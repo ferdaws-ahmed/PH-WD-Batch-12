@@ -1,0 +1,13 @@
+
+
+What will be the result of the following codes:
+
+var a = isNaN(‘11’);
+   Ans: its return true. bcz '11' is a string and its Not a Number. so output is "True".
+
+var a = isNaN(2-10);
+   Ans: it's return false value. bcs '2-10 = -8' is a negative number/ valid number. 
+        isNaN means: its a Not a Number ?
+        if its a valid number, return = false;
+        if its not a valid number, return = true;
+Explain your answers.
