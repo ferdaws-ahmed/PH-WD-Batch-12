@@ -1,0 +1,1 @@
+var studyHour = 8;
