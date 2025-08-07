@@ -1,10 +1,14 @@
 
 
 
-const statement = 'I am a hard working person'
-const conc = [];
-for ( stm of statement){
-     
-}
+const statement = 'I am a hard working person';
 
-console.log(conc.join(''));
+
+const vag = statement.split(' ');
+
+const rev = []
+
+for( const element of vag){
+    rev.unshift(element);
+}
+console.log(rev.join(' '))
