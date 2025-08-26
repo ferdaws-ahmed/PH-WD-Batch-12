@@ -20,22 +20,26 @@ function clickBtn(id){
 
         const newDiv = document.createElement("div");
         newDiv.innerHTML =`
-         <div id="cart-item" class="flex justify-between items-center p-4 rounded-xl bg-slate-100">
+         <div id="items">
+               <div id="cart-item" class="flex justify-between items-center m-3 p-4 rounded-xl bg-slate-100">
                     <div class="w-8 " >
                         <img class="w-full" src="${cardImg.src}" alt="">
                     </div>
                     
                     <div>
-                        <h1>${cardHeading.innerText}</h1>
-                        <p>${cardPrice.innerText}</p>
+                        <h1 class="font-bold">${cardHeading.innerText}</h1>
+                        <p class="text-sm">${cardPrice.innerText}</p>
                     </div>
                 </div>
+         </div>
         `
         const cartSection = getElement('cart-section');
         cartSection.appendChild(newDiv)
 
 
         
+        
+
         
 
         // const cartSection = getElement('cart-section');
@@ -56,6 +60,11 @@ function clickBtn(id){
         // const cartSection = getElement('cart-section');
         // cartSection.appendChild(newElement);
     });
+    const deleteBtn = getElement('Delete-all-btn');
+        deleteBtn.addEventListener('click',function(){
+            const Items = getElement('items');
+            Items.innerHTML = '';
+        })
     
 }
  clickBtn('card-btn-1')
