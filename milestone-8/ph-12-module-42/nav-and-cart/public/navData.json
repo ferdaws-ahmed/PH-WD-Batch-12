@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "urlPath": "/"
+  },
+  {
+    "id": 2,
+    "name": "About Us",
+    "urlPath": "/about"
+  },
+  {
+    "id": 3,
+    "name": "Projects",
+    "urlPath": "/projects"
+  },
+  {
+    "id": 4,
+    "name": "Blog",
+    "urlPath": "/blog"
+  },
+  {
+    "id": 5,
+    "name": "Contact",
+    "urlPath": "/contact"
+  }
+]
