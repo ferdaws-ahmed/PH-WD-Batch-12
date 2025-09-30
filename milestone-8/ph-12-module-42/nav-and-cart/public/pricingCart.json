@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Shield 🛡️",
+    "description": "Learn the core concepts of cybersecurity and secure your online presence. Ideal for beginners starting their journey.",
+    "price": "$4.99/mo",
+    "features": [
+      "Complete Introduction to Cybersecurity Course",
+      "Web Vulnerability Basics (Fundamentals only)",
+      "100+ Practice Quizzes and Assignments",
+      "Weekly Live Q&A Sessions (Basic)",
+      "Certificate of Completion"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pro Defender 💪",
+    "description": "The most popular plan for gaining deeper knowledge and practical experience. Learn attack and defense strategies.",
+    "price": "$8.99/mo",
+    "popular":"Most popular",
+    "features": [
+      "All features of **Basic Shield**",
+      "Advanced Ethical Hacking Module",
+      "Network Security and Forensics Course",
+      "Access to **30+ hands-on projects** in a virtual lab (Increased from 20+)",
+      "Monthly Expert Workshop Access",
+      "Private Discord Community Access",
+      "**Dedicated Forum Support (within 24 hours)**",
+      "**Intermediate Cryptography & Steganography**" 
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Elite Hacker 👑",
+    "description": "Prepare for a cybersecurity career. Access research, advanced tools, and customized mentorship for professional growth.",
+    "price": "$14.99/mo",
+    "features": [
+      "All features of **Pro Defender**",
+      "Bug Bounty Hunting Techniques and Training",
+      "Industry-level Security Audit Capstone Project",
+      "**1:1 Customized Mentorship (4 sessions/month)** (Increased from 2)",
+      "Early Access to New Courses/Modules",
+      "Lifetime Course Update Access",
+      "**Career Placement Guidance & Resume Review**",
+      "**Advanced Cloud Security (AWS/Azure)**", 
+      "**Access to Exclusive Research Papers & Tools**" 
+    ]
+  }
+]

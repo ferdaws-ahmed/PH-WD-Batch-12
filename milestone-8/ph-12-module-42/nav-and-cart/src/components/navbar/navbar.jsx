@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavLink from './navLink'
-
+import { Menu, X } from 'lucide-react'
 
 
 const  navData = [
@@ -32,15 +32,34 @@ const  navData = [
 ]
 
 function Navbar() {
+
+ const link = navData.map(data => <NavLink key={data.id} data = {data}></NavLink>)
+
+  const [open, setOpen] = useState(false)
   return (
-    <div>
-        <ul className='flex gap-7'>
+    <nav className='flex justify-between mx-5 mt-3'>
+       <span className='flex gap-3'>
+        <span onClick={()=> setOpen(!open)}>
+          {
+            open?<X className='sm:hidden'></X> :<Menu className='sm:hidden'></Menu>
+          }
+          <ul className={`sm:hidden ${open ? 'top-10' : ' -top-40'} absolute duration-600`}>
             {
-                navData.map(data => <NavLink key={data.id} data = {data}></NavLink>)
+              link
+            }
+          </ul>
+          
+        </span>
+       <h1>My Project</h1>
+       </span>
+        <ul className='sm:flex gap-7 hidden '>
+            {
+                link
             }
         </ul>
+        <button>Sign In</button>
 
-    </div>
+    </nav>
   )
 }
 
