@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.side-bar{
+  display: flex;
+  gap: 30px;
+  justify: between;
+}
+
+.active{
+  color: red;
+}
+
+.user-style{
+  border: 1px solid red;
+  margin-top: 10px
+
+}

@@ -3,7 +3,7 @@
 
 
 import React from 'react'
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Header = () => {
 
@@ -12,11 +12,11 @@ const Header = () => {
         <div>
             <h1>This is header</h1>
             <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/mobiles'>Mobile</Link>
-                <Link to='/laptop'>Laptop</Link>
-                <Link to='/users'>Users</Link>
-                <Link to='/users2'>User2</Link>
+                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/mobiles'>Mobile</NavLink>
+                <NavLink to='/laptop'>Laptop</NavLink>
+                <NavLink to='/users'>Users</NavLink>
+                <NavLink to='/users2'>User2</NavLink>
                 
             </nav>
         </div>

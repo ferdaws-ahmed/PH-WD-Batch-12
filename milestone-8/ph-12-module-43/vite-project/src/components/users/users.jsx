@@ -4,6 +4,7 @@
 
 import React from "react";
 import { useLoaderData } from "react-router";
+import User from "../user/user";
 
 
 const Users = () =>{
@@ -14,6 +15,10 @@ const Users = () =>{
     return(
         <div>
             <p>This is Users</p>
+
+            {
+                users.map(user => <User user={user}></User>)
+            }
         </div>
     )
 }
