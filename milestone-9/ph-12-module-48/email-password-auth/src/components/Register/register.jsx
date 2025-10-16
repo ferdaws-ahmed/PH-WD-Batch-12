@@ -56,7 +56,7 @@ const Register = () => {
         {
           success && <p className='text-green-400'>Account Created Successfully.</p>
         }
-        {
+        {  
           error && <p className='text-red-500'>{error}</p>
         }
        </form>
