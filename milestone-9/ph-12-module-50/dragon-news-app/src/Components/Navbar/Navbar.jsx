@@ -2,7 +2,7 @@
 
 import userIcon from '../../assets/user.png'
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -15,7 +15,8 @@ const Navbar = () => {
             </div>
             <div className='flex gap-3'>
                 <img src={userIcon} alt="" />
-                <button className='btn btn-primary px-8 text-base-100'>Login</button>
+               
+                <Link to='/auth/login' className='btn btn-primary px-8 text-base-100'>Login</Link>
             </div>
         </div>
     );
